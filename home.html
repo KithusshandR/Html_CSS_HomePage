@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A1</title>
-    <link rel='stylesheet' href='stylesFirst.css'>
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="stylesDeskTop.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="stylesMobile.css">
+    <link rel="stylesheet" media= "screen and (max-width: 900px) and (min-width: 600px) " href="stylesPad.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width: 900px) " href="stylesPadpro.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -16,7 +19,7 @@
     <div class="first">
 
         <div class="Main">
-            <h1>RELAP</h1>
+            <div class="ki">RELAP</div>
             <div class="nav">
                 <div class="topnav">
                     <a href="default.asp">Home</a>
@@ -63,15 +66,14 @@
             <div class="Cardcolumn">
                 <div class="card">
                     <img class="img" src="p1.jpg" alt="Avatar">
-                    <div class="cardText">
-                        <p>Voluptatum</p>
-                        <h2><b>Atque corrupti
-                                <br>
-                                <div class="bMain">quos dolres<button class="bt success"> <i class="fa fa-plus"
-                                            style="font-size:20px"></i></button>
+                    <div class="cardText">Voluptatum
+                        <div class="cardText1">Atque corrupti
+                            <br>
+                            <div class="bMain">quos dolres<button class="bt success"> <i
+                                        class="fa fa-plus"></i></button></i></button>
 
-                                </div>
-                            </b></h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,15 +81,13 @@
             <div class="Cardcolumn">
                 <div class="card">
                     <img class="img" src="p2.jpg" alt="Avatar">
-                    <div class="cardText">
-                        <p>Moestias</p>
-                        <h2><b>Excepturi sint
-                                <br>
-                                <div class="bMain">occaecati<button class="bt success"> <i class="fa fa-plus"
-                                            style="font-size:20px"></i></button>
+                    <div class="cardText">Moestias
+                        <div class="cardText1">Excepturi sint
+                            <br>
+                            <div class="bMain">occaecati<button class="bt success"> <i class="fa fa-plus"></i></button>
 
-                                </div>
-                            </b></h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,66 +97,70 @@
             <div class="Cardcolumn">
                 <div class="card">
                     <img class="img" src="p3.jpg" alt="Avatar">
-                    <div class="cardText">
-                        <p>cupiditate</p>
+                    <div class="cardText">cupiditate
 
-                        <h2><b>Similique sunt
-                                <br>
-                                <div class="bMain">in culpa<button class="bt success"> <i class="fa fa-plus"
-                                            style="font-size:20px"></i></button>
+                        <div class="cardText1">Similique sunt
+                            <br>
+                            <div class="bMain">in culpa<button class="bt success"><i
+                                        class="fa fa-plus"></i></button></i></button>
 
-                                </div>
-                            </b></h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
 
+        <div class="formH">
+            <div class="form1">
+                <form action="/action_page.php" method="POST">
+                    <div class="c1">Contact Us</div>
+                    <div class="c2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                        molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas.
+                    </div>
 
-        <div class="form1">
-            <form action="/action_page.php" method="POST">
-                <p class="c1">Contact Us</p>
-                <p class="c2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil<br>
-                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas.
-                </p>
-
-                <div class="emailf">
-                    <input type="text" id="email" name="email" class="form-control" placeholder="Your Email">
-                    <button class="button3 button3">Send</button>
-                </div>
-            </form>
+                    <div class="emailf">
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Your Email">
+                        <button class="button3 button3">Send</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
-        <div class="footer">
-            <hr>
-            <div class="footcon"></div>
-            <div class="footRow">
+    <div class="footer">
+        <hr>
+        <div class="footcon"></div>
+        <div class="footRow">
             <div class="footcolumn">
 
-            
-                    <div class="cardText">
-                        <p style="font-weight: bold; font-size: 15px; ">Consectetur</p>
-                        <p style="color: rgba(128, 122, 122, 0.932);">Adipiscing</p>
-                        <p style="color: rgba(128, 122, 122, 0.932);">Edit</p>
-                    </div>
-                    <div class="cardText">
-                        <p style="font-weight: bold; font-size: 15px;">Tempor</p>
-                        <p style="color: rgba(128, 122, 122, 0.932);">Incididunt</p>
-                        <p style="color: rgba(128, 122, 122, 0.932);">Labore</p>
-                    </div>
-                    <div class="cardText">
-                        <p style="font-weight: bold; font-size: 15px;">Magna</p>
-                        <p style="color: rgba(128, 122, 122, 0.932);">Aliqua</p>
-                        <p style="color: rgba(128, 122, 122, 0.932);">Minim</p>
-                    </div>
-
-                    
+                <div>
+                    <div class="cardText2">Consectetur</div>
+                    <div class="cardText3">Adipiscing</div>
+                    <div class="cardText3">Edit</div>
                 </div>
+
+                
+                <div>
+                    <div class="cardText2">Tempor</div>
+                    <div class="cardText3">Incidiunt</div>
+                    <div class="cardText3">Labore</div>
+                </div>
+
+                
+                <div>
+                    <div class="cardText2">Consectetur</div>
+                    <div class="cardText3">Aliqua</div>
+                    <div class="cardText3">Minim</div>
+                </div>
+
+
+
             </div>
-            <p class="copy">Copyright 2021. All Rights Reserved.</p>
         </div>
+        <p class="copy">Copyright 2021. All Rights Reserved.</p>
+    </div>
 
 
 </body>

@@ -1,0 +1,335 @@
+body{
+    margin: 0%;
+    font-family:'Poppins'; 
+}
+
+ 
+.first{
+      margin: 0%;
+      background-image: url('p4.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height:200px;
+       
+  }
+.ki{
+    font-size: 12px;
+    margin: 0%;
+}
+  
+  
+.Main{
+    display: inline-flex;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;      
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3px;
+  margin-left: 15px;
+  }
+  
+  
+  .topnav {
+    background-color: transparent;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: 9px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .button {
+   
+    background-color: transparent;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    width: 50px;
+    height: 15px;
+
+  }
+  
+.button1 {border-radius: 10px; }
+
+
+.omnisSet{
+    margin-left: 15px;
+    margin-top: 30px;
+    display: block;
+  }
+  .omnis{
+  
+          color: white;     
+          font-size: 15px;
+          font-weight: bold;
+          margin: 0;
+                 
+    }
+    .omnisP{
+      color: white;     
+      font-size: 6px;
+      margin-top: 5px;
+      
+  }
+  
+  
+  
+  .button2 {
+      background-color: rgb(230, 181, 22);
+      color: white;
+      text-align: center;
+      width: 60px;
+      padding: 1px;
+      height: 15px;
+      text-decoration: none;
+      font-size: 8px;
+      border: none;
+    }
+  
+  .button2 {border-radius: 10px;}
+
+  .Re{
+    color: black;     
+    font-size: 5px;
+    font-weight: bold;
+    margin-top: 20px; 
+    margin-left: 15px; 
+}
+
+.RE{
+  color: black;     
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 15px; 
+}
+
+.Cardcon{
+  margin-left: 12px;
+  margin-top: 20px;
+  margin-right: 12px;
+}
+
+.Cardcolumn {
+  float: left;
+  width: 30%;
+  padding: 0;
+}
+
+/* Remove extra left and right margins, due to padding */
+.CardRow {
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 100%) {
+  .column {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 0x;
+  margin: 0;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.bMain{
+  display: flex;
+  justify-content: space-between; 
+}
+.img{
+  width: 100%;
+}
+
+.cardText{
+  padding: 5px;
+  font-size: 8px;
+}
+
+.fa fa-plus{
+    font-size: 15px;
+}
+.cardText1{
+    font-size: 10px;
+    font-weight: bolder;
+    margin-top: 5px;    
+}
+
+
+.bt {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  width: 10px;
+  padding: 1px;
+  height: 10px;
+  text-decoration: none;
+  font-size: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Green */
+.success {
+  border: 1px solid rgb(223, 91, 91);
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  color: rgb(223, 91, 91);
+
+
+}
+
+.success:hover {
+  border: 1px solid rgb(223, 91, 91);
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  color: rgb(223, 91, 91);
+ 
+}
+
+.formH{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form1{
+display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+justify-content: space-around;
+width: 220px;
+ 
+ }
+ 
+ .c1{
+   color: black;
+   font-weight: bolder;
+   font-size: 10px;
+   margin: 0;
+   text-align: center;
+ }
+ 
+ .c2{
+   color: black;
+   font-size: 6px;
+   text-align: center;
+   margin-top: 3px;
+ }
+
+ 
+ .emailf{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10px;
+   
+   
+ }
+ 
+ input#email {
+   width: 80px;
+   height: 10px;
+   font-size: 7px;
+ }
+ 
+ .button3 {
+   background-color: rgb(212, 103, 212);
+   color: white;
+   text-align: center;
+   width: 50px;
+   padding: 1px;
+   height: 15px;
+   text-decoration: none;
+   font-size: 7px;
+   border: none;
+   border-radius: 10px;
+ }
+
+ .footer {
+    margin: 0%;
+    width: 100%;
+    color: black;
+    display: block;
+  }
+  
+  
+  .footcon{
+    margin-top: 10px;
+  
+  }
+  
+  .cardText2{
+    font-size: 7px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+  }
+  
+  .cardText3{
+    font-size: 7px;
+    color: rgba(128, 122, 122, 0.932);
+    margin-bottom: 2px;
+    
+  }
+  
+  .CardRow {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footcolumn {
+    float: left;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+  
+  .copy{
+    text-align: center;
+    color: rgba(128, 122, 122, 0.932);
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size: 8px;
+  }
+  
+  

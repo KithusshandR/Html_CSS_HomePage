@@ -2,7 +2,8 @@ body{
     margin: 0%;
     font-family: 'Poppins'; 
 }
-  
+
+ 
 .first{
       margin: 0%;
       background-image: url('p4.jpg');
@@ -23,7 +24,7 @@ body{
 .nav{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 100px;
   }
   
@@ -36,7 +37,7 @@ body{
   .topnav a {
     float: left;
     color: #f2f2f2;
-    margin-left: 80px;
+    margin-left: 60px;
     text-decoration: none;
     font-size: 20px;
   }
@@ -125,9 +126,9 @@ body{
 }
 
 .Cardcon{
-  margin-left: 100px;
+  margin-left: 80px;
   margin-top: 30px;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 .Cardcolumn {
@@ -141,6 +142,7 @@ body{
   margin-left: 0;
   display: flex;
   justify-content: space-between;
+  
 }
 
 /* Clear floats after the columns */
@@ -173,41 +175,69 @@ body{
 .img{
   width: 100%;
 }
-
 .cardText{
-  padding: 15px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+
+.fa fa-plus{
+    font-size: 20px;
+}
+.cardText1{
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+
+
+.fa fa-plus{
+  font-size: 20px;
+}
+.cardText1{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 5px;
 }
 .bt {
   background-color: transparent;
   color: white;
   text-align: center;
-  width: 150px;
+  width: 40px;
   padding: 5px;
   height: 40px;
   text-decoration: none;
   font-size: 15px;
   border: none;
   border-radius: 30px;
+  
 }
 
 /* Green */
 .success {
+
   border: 2px solid rgb(223, 91, 91);
   border-radius: 30px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   color: rgb(223, 91, 91);
 
 
 }
 
 .success:hover {
+
   border: 2px solid rgb(223, 91, 91);
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 30px;
   color: rgb(223, 91, 91);
  
+}
+
+.formH{
+  display: flex;
+  justify-content: space-around;
 }
 
 
@@ -216,6 +246,7 @@ display: flex;
 margin-top: 70px;
 margin-bottom: 100px;
 justify-content: space-around;
+width: 600px;
  
  }
  
@@ -236,7 +267,7 @@ justify-content: space-around;
  
  .emailf{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    margin-top: 30px;
    
    
@@ -273,10 +304,23 @@ justify-content: space-around;
 
 }
 
+.cardText2{
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.cardText3{
+  font-size: 15px;
+  color: rgba(128, 122, 122, 0.932);
+  margin-bottom: 5px;
+  
+}
+
 .CardRow {
   margin-left: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footcolumn {
@@ -285,11 +329,13 @@ justify-content: space-around;
   padding: 0;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 30px;
 }
 
 .copy{
   text-align: center;
   color: rgba(128, 122, 122, 0.932);
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom:20px;
 }
+
